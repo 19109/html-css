@@ -1,0 +1,83 @@
+body
+{
+    padding: 0;
+    margin: 0;
+}
+header
+{
+    padding: 0;
+    margin: 0 auto;
+    width: 960px;
+}
+.menubar 
+{
+    background: purple;
+
+}
+.menubar ul
+{
+    margin: 0;
+    padding: 0;
+    list-style: none;
+  
+    position: relative;
+    
+    
+}
+.menubar ul li 
+{
+    float: left;
+    
+}
+
+.menubar ul:after{
+	content: '';
+	display:block;
+	clear:both;
+}
+	
+.menubar ul li a 
+{
+    text-decoration: none;
+    font-size: 20px;
+    padding: 10px 20px;
+    color: white;
+    font-family: initial;
+    display: block;
+
+}
+.menubar ul li a:hover
+{
+    background: green;
+    color: red;
+}
+/* drop down menubar design */
+
+.menubar ul ul li 
+{
+    float: none;
+}
+.menubar  ul ul 
+{
+    width: 250px;
+    background: indigo;
+    position: absolute;
+    display: none;
+ 
+}
+.menubar ul li:hover ul
+{
+    display: block;
+}
+
+.img
+{
+    height: 550px;
+    width: 960px;
+    background-size: cover;
+    background-repeat: no-repeat;
+}
+.btn
+{
+    padding: 200px 50px;
+}
